@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=========================== Drug crops ==============================-->
+
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Smokeleaf</defName>
+    <label>smokeleaf plant</label>
+    <description>A leafy crop grown for the psychological effects of chemicals in its leaves. Smokeleaf leaves can be prepared into joints at the crafting spot. Smokeleaf makes a user feel relaxed, but reduces motivation, and can be addictive.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/SmokeleafPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <growDays>7.50</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SmokeleafLeaves</harvestedThingDef>
+      <harvestYield>9</harvestYield>
+      <sowMinSkill>4</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <visualSizeRange>0.3~1.0</visualSizeRange>
+      <wildOrder>2</wildOrder>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_SmokeIndica</defName>
+    <label>indica smokeleaf plant</label>
+    <description>It's either GDP or AK-47, just fuckin smoke it.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/SmokeleafPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <growDays>7.50</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>IndicaBuds</harvestedThingDef>
+      <harvestYield>9</harvestYield>
+      <sowMinSkill>4</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <visualSizeRange>0.3~1.0</visualSizeRange>
+      <wildOrder>2</wildOrder>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_SmokeSativa</defName>
+    <label>sativa smokeleaf plant</label>
+    <description>It's either Amnesia Haze or Durban Poison, just fuckin smoke it.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/SmokeleafPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+      <growDays>7.50</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SativaBuds</harvestedThingDef>
+      <harvestYield>9</harvestYield>
+      <sowMinSkill>4</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <visualSizeRange>0.3~1.0</visualSizeRange>
+      <wildOrder>2</wildOrder>
+    </plant>
+  </ThingDef>
+
+</Defs>
